@@ -1,0 +1,18 @@
+.list {
+    display: flex;  /* Display the child items in a Flex layout */
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Evenly space the child elements */
+    
+
+}
+.shop {
+    flex-basis: 16%;  /* Make each child element the same width */
+    border: 1px dotted rgba(118, 116, 151, 0.692);
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center; /* Center align the text in the boxes */
+}
+
+.pageheader {
+    text-align: center;
+}
